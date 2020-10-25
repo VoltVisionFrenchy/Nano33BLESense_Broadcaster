@@ -1,7 +1,7 @@
 /*
     Name: vBridge Advert Peripheral
     Note: dfvevvvrvre
-    Github Repo: https://github.com/VoltVisionFrenchy/Nano33BLESenseBroadcaster
+    Github Repo: https://github.com/VoltVisionFrenchy/Nano33BLESense_Broadcaster
     GoogleDoc: https://docs.google.com/spreadsheets/d/1OlF2bIO_ECabBYWCA-t-zRxWsCUxbNybzl1R09yZdUE/edit?usp=sharing
 
     ToDo:
