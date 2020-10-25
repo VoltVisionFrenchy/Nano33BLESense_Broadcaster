@@ -1,12 +1,12 @@
 /*
-    Name: vBridge Advert Peripheral
-    Note: dfvevvvrvre
+    Name: Nano33BLESense_Broadcaster
+    Purpose: Read sensors and advertise data as non-connectable broadcaster
     Github Repo: https://github.com/VoltVisionFrenchy/Nano33BLESense_Broadcaster
     GoogleDoc: https://docs.google.com/spreadsheets/d/1OlF2bIO_ECabBYWCA-t-zRxWsCUxbNybzl1R09yZdUE/edit?usp=sharing
 
     ToDo:
+      - Restructure code for minimal implementation <--In motion now
       - Better resolution temp sensor
-      - Restructure code for minimal implementation
       - PDM SPL detector?
       - Add other modes with better resolution?!??!??
 */
