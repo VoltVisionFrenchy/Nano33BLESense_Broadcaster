@@ -9,6 +9,7 @@
       - Better resolution temp sensor
       - PDM SPL detector?
       - Add other modes with better resolution?!??!??
+      - Change transmit power?
 */
 
 #include <ArduinoBLE.h>
@@ -65,9 +66,9 @@ void setup()
   data[23] = 0x17; //Byte23
   data[24] = 0x18; //Byte24
   data[25] = 0x19; //Byte25
-  BLE.setLocalName("LocalName");
-  BLE.setDeviceName("DeviceName");
-  BLE.setAdvertisingInterval(160);
+  BLE.setLocalName("LocalName");    //this isnt showing up in any of the sniffers
+  BLE.setDeviceName("DeviceName");  //this isnt showing up in any of the sniffers
+  BLE.setAdvertisingInterval(160);  //Bluetooth SIG (20 ms to 10.24 s)
     // 1600*0.625ms = 1000ms
     // 800*0.625ms = 500ms
     // 640*0.625ms = 400ms
